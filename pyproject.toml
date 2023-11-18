@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "hw5-python"
+version = "0.1.0"
+description = ""
+authors = ["Ziyang Yuan <ziyangy@uchicago.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mysql-connector-python = "^8.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
